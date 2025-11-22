@@ -53,7 +53,7 @@ npm run dev
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-##  Technologies Used
+##  Technologies Used.
 
 - **React** - UI library
 - **Vite** - Build tool and dev server
