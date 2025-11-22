@@ -1,12 +1,112 @@
-# React + Vite
+# 🎬 MonkeyKing Booth
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive photo booth web application built with React and Vite. Capture fun photos with various filters and download your photo strips!
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📸 **Webcam Integration** - Real-time camera access for photo capture
+- 🎨 **Multiple Filters** - Choose from 7 different photo filters:
+  - 90s Vintage
+  - 2000s Retro
+  - Noir (Black & White)
+  - Fisheye
+  - Rainbow
+  - Glitch
+  - Crosshatch
+- 🎬 **Photo Strip Generation** - Automatic 3-photo strip creation with countdown
+- 💾 **Download Photos** - Save your photo strips as JPEG images
+- 🎭 **Interactive UI** - Coin-operated booth interface with curtain animation
+- ✨ **Smooth Animations** - Powered by Framer Motion
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, I recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- A webcam (for photo capture)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repo-url>
+cd photobooth-main/vite-project
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🛠️ Technologies Used
+
+- **React** - UI library
+- **Vite** - Build tool and dev server
+- **Framer Motion** - Animation library
+- **react-webcam** - Webcam integration
+- **html2canvas** - Canvas to image conversion
+- **CSS3** - Styling and animations
+
+## 📖 How to Use
+
+1. **Start the app** - Click "INSERT COIN HERE" to begin
+2. **Activate Camera** - Click the coin to open the curtain and access the photo studio
+3. **Choose Filter** - Select your preferred filter from the filter bar
+4. **Take Photos** - Click the 📸 button to start the 3-photo sequence
+5. **View Results** - See your photo strip with date stamp
+6. **Download** - Click "Download Strip" to save your photos
+
+## 📁 Project Structure
+
+```
+vite-project/
+├── public/
+│   └── images/          # Background images
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx     # Main container
+│   │   ├── PhotoBooth.jsx    # Coin-operated booth interface
+│   │   └── PhotoStudio.jsx   # Photo capture and filter studio
+│   ├── App.jsx          # Root component
+│   └── main.jsx         # Entry point
+└── package.json
+```
+
+## 🎨 Customization
+
+You can customize the app by:
+- Modifying filter styles in `PhotoStudio.css`
+- Changing booth appearance in `PhotoBooth.css`
+- Adding new filters in `PhotoStudio.jsx`
+- Updating colors and themes in CSS files
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 👤 Author
+
+Your Name
+
+---
+
+Made with ❤️ using React and Vite
