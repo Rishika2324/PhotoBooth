@@ -1,11 +1,11 @@
-# 🎬 MonkeyKing Booth
+#  MonkeyKing Booth
 
 A modern, interactive photo booth web application built with React and Vite. Capture fun photos with various filters and download your photo strips!
 
-## ✨ Features
+##  Features
 
-- 📸 **Webcam Integration** - Real-time camera access for photo capture
-- 🎨 **Multiple Filters** - Choose from 7 different photo filters:
+-  **Webcam Integration** - Real-time camera access for photo capture
+- **Multiple Filters** - Choose from 7 different photo filters:
   - 90s Vintage
   - 2000s Retro
   - Noir (Black & White)
@@ -13,12 +13,12 @@ A modern, interactive photo booth web application built with React and Vite. Cap
   - Rainbow
   - Glitch
   - Crosshatch
-- 🎬 **Photo Strip Generation** - Automatic 3-photo strip creation with countdown
-- 💾 **Download Photos** - Save your photo strips as JPEG images
-- 🎭 **Interactive UI** - Coin-operated booth interface with curtain animation
-- ✨ **Smooth Animations** - Powered by Framer Motion
+-  **Photo Strip Generation** - Automatic 3-photo strip creation with countdown
+-  **Download Photos** - Save your photo strips as JPEG images
+-  **Interactive UI** - Coin-operated booth interface with curtain animation
+-  **Smooth Animations** - Powered by Framer Motion
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -46,14 +46,14 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:5173`
 
-## 📦 Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **React** - UI library
 - **Vite** - Build tool and dev server
@@ -62,7 +62,7 @@ npm run dev
 - **html2canvas** - Canvas to image conversion
 - **CSS3** - Styling and animations
 
-## 📖 How to Use
+##  How to Use
 
 1. **Start the app** - Click "INSERT COIN HERE" to begin
 2. **Activate Camera** - Click the coin to open the curtain and access the photo studio
@@ -71,7 +71,7 @@ npm run dev
 5. **View Results** - See your photo strip with date stamp
 6. **Download** - Click "Download Strip" to save your photos
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 vite-project/
@@ -87,7 +87,7 @@ vite-project/
 └── package.json
 ```
 
-## 🎨 Customization
+##  Customization
 
 You can customize the app by:
 - Modifying filter styles in `PhotoStudio.css`
@@ -95,18 +95,14 @@ You can customize the app by:
 - Adding new filters in `PhotoStudio.jsx`
 - Updating colors and themes in CSS files
 
-## 📝 License
+##  License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-## 👤 Author
-
-Your Name
-
----
-
+## Author
+Rishika Mandlay
 Made with ❤️ using React and Vite
